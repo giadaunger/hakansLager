@@ -1,0 +1,26 @@
+.nav-li{
+    list-style: none;
+    display: inline;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 50px;
+}
+
+.nav-link{
+    text-decoration: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: black;
+}
+
+nav{
+    height: 150px;
+}
