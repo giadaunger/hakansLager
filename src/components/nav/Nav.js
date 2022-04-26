@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../nav/imageCss/nav.css'
 
 
-function Nav() {
+function Nav({cart}) {
 
     return(
         <nav>
@@ -13,7 +13,7 @@ function Nav() {
                 </Link>
 
                 <Link to='/checkout' className='nav-link'>
-                    <li className='nav-li'>Kassa</li>
+                    <li className='nav-li'>{`Kassa (${cart.lenght})`}</li>
                 </Link>
 
                 <Link to='/contact' className='nav-link'>

@@ -5,7 +5,7 @@
 
 .banner-div{
     display: flex;
-    max-width: 110ch;
+    max-width: 130ch;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13,11 +13,7 @@
 .banner-text{
     text-align: center;
     margin-top: 200px;
-    margin-left: 20px;
-}
-
-.banner-section{
-    background-color: #8ab5e382;
+    margin-left: 0px;
 }
 
 .banner-h1{

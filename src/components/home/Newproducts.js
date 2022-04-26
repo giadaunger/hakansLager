@@ -47,9 +47,9 @@ function Newproducts() {
     
     
    ]
-   const items = NewItems.map(productItems => 
-        <div className='product-card'>
-            <li key={productItems.id}>
+   const items = NewItems.map((productItems, index) => 
+        <div className='product-card' key={index}>
+            <li>
                 <img src={productItems.image} alt='pic' className='product-pic'/>
                 <div>
                     <h1 className='product-h1'>{productItems.name}</h1>
