@@ -34,10 +34,6 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
-    border: 2px solid #77a7da;
-    background-color: #77a7da;
-    color: white;
-    font-weight: 600;
 }
 
 .wrapper{
@@ -54,4 +50,6 @@
     font-size: 2.5em;
     margin-top: 100px;
     margin-bottom: 100px;
+    font-family: 'Luckiest Guy', cursive;
+    color: #004aad;
 }

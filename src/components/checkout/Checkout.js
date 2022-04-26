@@ -61,7 +61,7 @@ function Checkout({ cart, handleClearCart, handleRemoveProduct, handleAddProduct
             </div>
             <div className='checkout-btn-div'>
             <button className='checkout-btn pay'>Beställ</button>
-            <button className='clear-cart-btn' onClick={handleClearCart}>Clear Cart</button>
+            <button className='clear-cart-btn' onClick={handleClearCart}>Rensa</button>
             </div>
         </div> 
     )
